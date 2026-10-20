@@ -1,0 +1,12 @@
+[project]
+name = "bn-002-the-agent-that-had-to-ask-first"
+version = "0.1.0"
+description = "Can a tool-using agent learn to distinguish between actions it may take, actions that require approval, and actions it must refuse?"
+requires-python = ">=3.11"
+dependencies = [
+    "openai",
+    "python-dotenv",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
